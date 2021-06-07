@@ -1,0 +1,28 @@
+{
+  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "category": "Tools",
+  "name": "coolors",
+  "createdby": "Radimir Bitsov",
+  "readme": "",
+  "defaultIcon": "icon.png",
+  "enabled": true,
+  "commands": [
+    {
+      "type": "scriptfilter",
+      "command": "coolor",
+      "title": "Get color name",
+      "subtitle": "",
+      "script_filter": "node index.js \"$1\"",
+      "running_subtext": "Searching...",
+      "withspace": true,
+      "arg_type": "required",
+      "action": [
+        {
+          "modifiers": "normal",
+          "type": "clipboard",
+          "text": "{query}"
+        }
+      ]
+    }
+  ]
+}

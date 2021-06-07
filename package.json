@@ -1,0 +1,39 @@
+{
+  "name": "@jopemachine/arvis-coolors",
+  "version": "0.0.2",
+  "description": "Get color name",
+  "license": "MIT",
+  "author": "Radimir Bitsov <radimir.bitsov@gmail.com>",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "arvis",
+    "workflow",
+    "color",
+    "colors",
+    "search",
+    "rgb",
+    "hex",
+    "design"
+  ],
+  "dependencies": {
+    "@jopemachine/arvish": "^0.1.13",
+    "color-namer": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.36.1"
+  }
+}
