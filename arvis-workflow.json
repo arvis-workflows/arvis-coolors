@@ -1,11 +1,12 @@
 {
-  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "Tools",
   "name": "coolors",
   "creator": "Radimir Bitsov",
   "readme": "",
   "defaultIcon": "icon.png",
   "enabled": true,
+  "version": "0.0.1",
   "commands": [
     {
       "type": "scriptFilter",
