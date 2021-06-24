@@ -1,6 +1,6 @@
 {
   "name": "arvis-coolors",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get color name",
   "license": "MIT",
   "author": "Radimir Bitsov <radimir.bitsov@gmail.com>",
@@ -29,7 +29,7 @@
     "design"
   ],
   "dependencies": {
-    "arvish": "^0.1.3",
+    "arvish": "^0.2.1",
     "color-namer": "^1.1.0"
   },
   "devDependencies": {

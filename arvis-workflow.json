@@ -13,7 +13,7 @@
       "command": "coolor",
       "title": "Get color name",
       "subtitle": "",
-      "scriptFilter": "node index.js \"$1\"",
+      "scriptFilter": "node index.js \"{query}\"",
       "runningSubtext": "Searching...",
       "withspace": true,
       "argType": "required",
