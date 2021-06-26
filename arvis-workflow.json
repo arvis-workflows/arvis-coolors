@@ -6,7 +6,7 @@
   "readme": "",
   "defaultIcon": "icon.png",
   "enabled": true,
-  "version": "0.0.2",
+  "version": "0.0.4",
   "commands": [
     {
       "type": "scriptFilter",

@@ -29,7 +29,7 @@
     "design"
   ],
   "dependencies": {
-    "arvish": "^0.2.1",
+    "arvish": ">=0.3.1",
     "color-namer": "^1.1.0"
   },
   "devDependencies": {
