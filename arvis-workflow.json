@@ -1,12 +1,12 @@
 {
     "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
     "category": "Tools",
-    "name": "coolors",
+    "name": "arvis-coolors",
     "creator": "Radimir Bitsov",
     "readme": "",
     "defaultIcon": "icon.png",
     "enabled": true,
-    "version": "0.0.5",
+    "version": "0.0.6",
     "webAddress": "https://github.com/jopemachine/arvis-coolors",
     "description": "🎨 Arvis workflow to generate color names",
     "commands": [
