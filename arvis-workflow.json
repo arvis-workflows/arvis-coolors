@@ -1,29 +1,31 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
-  "category": "Tools",
-  "name": "coolors",
-  "creator": "Radimir Bitsov",
-  "readme": "",
-  "defaultIcon": "icon.png",
-  "enabled": true,
-  "version": "0.0.4",
-  "commands": [
-    {
-      "type": "scriptFilter",
-      "command": "coolor",
-      "title": "Get color name",
-      "subtitle": "",
-      "scriptFilter": "node index.js \"{query}\"",
-      "runningSubtext": "Searching...",
-      "withspace": true,
-      "argType": "required",
-      "actions": [
+    "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+    "category": "Tools",
+    "name": "coolors",
+    "creator": "Radimir Bitsov",
+    "readme": "",
+    "defaultIcon": "icon.png",
+    "enabled": true,
+    "version": "0.0.5",
+    "webAddress": "https://github.com/jopemachine/arvis-coolors",
+    "description": "🎨 Arvis workflow to generate color names",
+    "commands": [
         {
-          "modifiers": "normal",
-          "type": "clipboard",
-          "text": "{query}"
+            "type": "scriptFilter",
+            "command": "coolor",
+            "title": "Get color name",
+            "subtitle": "",
+            "scriptFilter": "node index.js \"{query}\"",
+            "runningSubtext": "Searching...",
+            "withspace": true,
+            "argType": "required",
+            "actions": [
+                {
+                    "modifiers": "normal",
+                    "type": "clipboard",
+                    "text": "{query}"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
